@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #000000, #002b36);
+    overflow: hidden;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 100vh;
+    position: relative;
+}
+
+#gameCanvas {
+    background-color: #000;
+    border: solid 4px #00ff00;
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
+    border-radius: 10px;
+}
+
+.game-over {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: red;
+    font-size: 40px;
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 2px 2px 4px #000000;
+}
