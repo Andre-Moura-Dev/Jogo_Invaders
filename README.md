@@ -1,0 +1,1 @@
+Olá este jogo que fiz em javascript se trata de um jogo de fliperama muito antigo, porém eu o adaptei para os padrões de jogos de computador, pois gostaria de jogar uma coisa mais nova em uma máquina diferente.
